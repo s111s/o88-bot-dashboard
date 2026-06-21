@@ -1,5 +1,7 @@
 # o88 — DeepBook Native Operator
 
+![o88 logo](dashboard/public/logo.svg)
+
 > **Sui Overflow 2026 · DeepBook Special Track**
 > Builder: s111s · Developerror
 > Dashboard: [dashboard.o88.gg](https://dashboard.o88.gg)
