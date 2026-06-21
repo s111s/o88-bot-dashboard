@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+
+# Internal planning + operational docs — not for public repo
+CLAUDE.md
+NEW-PROJECT-PROMPT.md
+docs/
+
+# Rust
+operator/target/
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Node
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+node_modules/
+.next/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp

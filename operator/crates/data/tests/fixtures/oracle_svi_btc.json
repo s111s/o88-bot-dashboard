@@ -1,0 +1,72 @@
+{
+  "objectId": "0x75c2aec22ad83ee7461e6b8d6b06aad84bd68c2b154232328ec0c9a96112ea99",
+  "version": "910438815",
+  "digest": "Cn4rnCDm9dgFUDUy4z6ozmAjVm3Nkbf7L6QxCqQozGm2",
+  "type": "0xf5ea2b3749c65d6e56507cc35388719aadb28f9cab873696a2f8687f5c785138::oracle::OracleSVI",
+  "owner": {
+    "Shared": {
+      "initial_shared_version": 910352887
+    }
+  },
+  "content": {
+    "dataType": "moveObject",
+    "type": "0xf5ea2b3749c65d6e56507cc35388719aadb28f9cab873696a2f8687f5c785138::oracle::OracleSVI",
+    "hasPublicTransfer": false,
+    "fields": {
+      "active": true,
+      "authorized_caps": {
+        "type": "0x2::vec_set::VecSet<0x2::object::ID>",
+        "fields": {
+          "contents": [
+            "0x0b8fb5c4514337dbd300ff2a49185a99433d8369670a23329126388364119817",
+            "0x26d512474b0686462204be180d86db4ea01dd9ed1bc4fba1d512276b47ca5fe0",
+            "0x3399f6c3c3938deb258b46a55094a701901329860ec3c5172187cafebe40a054",
+            "0x675ece4ce52d908897657809f356208305e88f8dd852732a1bfa32fbc4f9222f",
+            "0x6a9b897e3028ff56be6171964409f647695b20d1748e670bdce53c8cace94319",
+            "0x74ae2ea21c0d95c66ee1c1ac7d62d8eccd7f9518acda1dd139978839bb9e1399",
+            "0x8980add13f69bdd19dc3779bbef97fba949494ea74fdb5653fa699a4f44a66ba",
+            "0xa78f3e5d00491ea0d4407ef0851b108096dd4132b0e62b914192ebccc1d86bce",
+            "0xb968dc0684088e35a7b5b41e3c5800aecde513b8d933ecd5cff6efc937eeb733",
+            "0xba1fedd1feae2af6d4b395a7e56db195aac0a005b172c588b79394e315474f61"
+          ]
+        }
+      },
+      "expiry": "1781973000000",
+      "id": {
+        "id": "0x75c2aec22ad83ee7461e6b8d6b06aad84bd68c2b154232328ec0c9a96112ea99"
+      },
+      "prices": {
+        "type": "0xf5ea2b3749c65d6e56507cc35388719aadb28f9cab873696a2f8687f5c785138::oracle::PriceData",
+        "fields": {
+          "forward": "63969342858526",
+          "spot": "63969379399080"
+        }
+      },
+      "settlement_price": null,
+      "svi": {
+        "type": "0xf5ea2b3749c65d6e56507cc35388719aadb28f9cab873696a2f8687f5c785138::oracle::SVIParams",
+        "fields": {
+          "a": "2090",
+          "b": "87671",
+          "m": {
+            "type": "0xf5ea2b3749c65d6e56507cc35388719aadb28f9cab873696a2f8687f5c785138::i64::I64",
+            "fields": {
+              "is_negative": true,
+              "magnitude": "471338"
+            }
+          },
+          "rho": {
+            "type": "0xf5ea2b3749c65d6e56507cc35388719aadb28f9cab873696a2f8687f5c785138::i64::I64",
+            "fields": {
+              "is_negative": true,
+              "magnitude": "396764896"
+            }
+          },
+          "sigma": "1000000"
+        }
+      },
+      "timestamp": "1781971852979",
+      "underlying_asset": "BTC"
+    }
+  }
+}
